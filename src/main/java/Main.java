@@ -17,7 +17,7 @@ public class Main {
             String startDate = "";
             String endDate = "";
             int count = 0;
-            boolean thumbs = false;
+            boolean thumbs;
 
             if (date.isEmpty()) {
                 startDate = Main.enterString("Input start date (default: empty): ", console);
