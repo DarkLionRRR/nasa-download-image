@@ -45,7 +45,7 @@ public class NasaHttpClientParams {
         }
 
         if (this.thumbs) {
-            params += "&thumbs=" + this.thumbs.toString();
+            params += "&thumbs=" + true;
         }
 
         return params;
